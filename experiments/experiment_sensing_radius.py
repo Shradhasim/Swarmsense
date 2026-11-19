@@ -1,9 +1,10 @@
+
 import numpy as np
 
-from src.config import SimulationConfig
-from src.swarm import Swarm
-from src.simulation import Simulation
-from src.results import save_results
+from config import SimulationConfig
+from swarm import Swarm
+from simulation import Simulation
+from results import save_results
 
 
 sensing_radii = [1.0, 2.0, 3.0]
@@ -28,7 +29,7 @@ for sensing_radius in sensing_radii:
 
     simulation.run()
 
-    filename = f"results_sensing_{sensing_radius}.csv"
+    filename = f"results/results_sensing_{sensing_radius}.csv"
 
     save_results(
         simulation.results,

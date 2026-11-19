@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
 *.pyc
+
+project_core_remaining.txt
+project_experiments_and_tests.txt

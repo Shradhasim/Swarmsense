@@ -4,7 +4,7 @@ sys.path.append("src")
 
 import numpy as np
 
-from swarm import Swarm
+from src.swarm import Swarm
 
 
 np.random.seed(42)

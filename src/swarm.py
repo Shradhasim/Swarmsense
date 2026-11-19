@@ -1,8 +1,8 @@
 import numpy as np
 
-from src.robot import Robot
-from src.behaviours import (separation, alignment, cohesion, target_attraction,)
-from src.config import SimulationConfig
+from robot import Robot
+from behaviours import (separation, alignment, cohesion, target_attraction,)
+from config import SimulationConfig
 
 
 class Swarm:

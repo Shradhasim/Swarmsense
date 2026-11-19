@@ -4,8 +4,8 @@ sys.path.append("src")
 
 import numpy as np
 
-from config import SimulationConfig
-from swarm import Swarm
+from src.config import SimulationConfig
+from src.swarm import Swarm
 
 from metrics import (
     average_pairwise_distance,

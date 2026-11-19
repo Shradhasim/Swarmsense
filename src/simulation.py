@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.metrics import (
+from metrics import (
     average_pairwise_distance,
     distance_to_target,
     target_reached,

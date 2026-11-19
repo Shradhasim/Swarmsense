@@ -4,8 +4,8 @@ sys.path.append("src")
 
 import numpy as np
 
-from robot import Robot
-from swarm import Swarm
+from src.robot import Robot
+from src.swarm import Swarm
 
 
 swarm = Swarm(
